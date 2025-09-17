@@ -1,1 +1,1 @@
-Hanyang
+Hanyanguniversity
