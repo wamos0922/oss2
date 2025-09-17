@@ -18,30 +18,35 @@ int main(void) {
 
     printf("What you want to do :\n");
     scanf("%d", &option);
+    
+    printf("Give me the first number : \n");
+    scanf("%d", &x);
+
+    printf("Give me the second number : \n");
+    scanf("%d", &y);
+   
 
 
     switch (option) {
 	case 1:
-
-		printf("Give me the first number :\n");
-		scanf("%d", &x);
-
-		printf("Give me the second number :\n");
-		scanf("%d", &y);
-
 
 		sum = x + y;
 		printf("The total is : %d \n",sum);
 
 		break;
 	case 2:
-		printf("case 2");
+        sum = x - y;
+        printf("The total is : %d \n", sum);
+
 		break;
 	case 3:
-		printf("case 3");
+		sum = x * y;
+        printf("The total is : %d \n",sum);
+
 		break;
 	case 4:
-		printf("case 4");
+		sum = x / y;
+        printf("The total is : %d \n", sum);
 		break;
 
     }
@@ -64,4 +69,3 @@ int main(void) {
 
 
 
-# oss2
