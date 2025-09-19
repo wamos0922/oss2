@@ -1,18 +1,19 @@
 #include <stdio.h>
 #include <string.h>
 
-
-
-int main(void) {
+void Test(){
+    printf("New patched one\n");
+}
+void First() {
     char myList[4][15] = {"Add", "Substraction", "Times", "Divide"};
     int i;
     int x, y, sum;
 
     for (i = 0; i < 4; i++){
-	int j = 1;
-        printf("%d. %s (length: %lu)\n", j, myList[i], strlen(myList[i]));
-	j++;
+        printf("%d. %s (length: %lu)\n", i, myList[i], strlen(myList[i]));
     }
+
+    Test();
 
     int option;
 
@@ -53,8 +54,8 @@ int main(void) {
 
 
 
-    return 0;
 }
+
 
 
 
